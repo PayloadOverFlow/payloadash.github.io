@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Limits</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="favicon.ico" > 
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">logo</a>
+        <ul>
+            <li><a href="Home.html" class="active" >Home</a></li>
+            <li><a href="#">Server</a></li>
+        </ul>
+    </header>
+        <section>
+            <img src="img/background.jpg" id="background">
+            <img src="img/moon.png" id="moon">
+            <img src="img/back.png" id="back">
+            <img src="img/middle.png" id="middle">
+            <h2 id="text">No Limits</h2>
+            <a href="#sec" id="btn">click me</a>
+            <img src="img/front.png" id="front">                   
+        </section>
+        <div class="sec" id="sec">
+        <h2>No Limits Server</h2>
+        <p><br></br> <br></br>A cool server with the dumbest people ever. <br></br> B'l3arbia had server fih aghba w' akfes w' humans atchofhom f 7yattek wa la yomkin ...  <br></br>
+            
+            par exemple : Imad a7med insan 3la wjeh l ard <br></br>
+            W' kayn : Naji hada akber wled l*7ba blama nhdro 3lih <br></br>
+            Safi blama nhdro bzaf Naji 7a9edni layn3el l*a7ba mo <br></br> 
+            Mhm Scrolli lfo9 & hit the Server button bach tchof l'mazid mn f'7al Naji.
+        </p>
+    </div>
+<script>
+let background = document.getElementById('background')
+let moon = document.getElementById('moon')
+let back = document.getElementById('back')
+let middle = document.getElementById('middle')
+let front = document.getElementById('front')
+let text = document.getElementById('text')
+let btn = document.getElementById('btn')
+let header = document.querySelector('header')
+window.addEventListener('scroll',function(){
+    let value = window.scrollY;
+    moon.style.top = value + 'px';
+    back.style.top = value * 0.5 + 'px';
+    middle.style.top = value * 0.2 + 'px';
+    text.style.marginTo
+p = value * -0.2 + 'px';
+    btn.style.marginTop = value * 0.90 + 'px';
+    header.style.top = value * -0.2 + 'px';
+    
+
+
+
+
+
+})
+
+</script>
+    
+    
+</body>
+</html>
